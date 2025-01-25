@@ -10,7 +10,7 @@ int findDuplicate( vector<int>& nums) {
         }
         seen.insert(num);
     }
-    return -1; // This line should never be reached if there is a duplicate
+    return -1; 
 }
 
 int main() {
